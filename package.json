@@ -1,0 +1,16 @@
+{
+  "name": "cnki-batch-downloader",
+  "version": "1.0.0",
+  "description": "CNKI batch downloader: Playwright + ddddocr captcha solving, resumable JSONL queue, self-healing watchdog, CAJ→PDF quality check",
+  "keywords": ["cnki", "知网", "playwright", "ddddocr", "captcha", "academic", "downloader"],
+  "license": "MIT",
+  "bin": { "cnki-dl": "downloader.js" },
+  "scripts": {
+    "start": "node downloader.js",
+    "login": "node login.js"
+  },
+  "dependencies": {
+    "playwright": ">=1.40.0"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,18 @@
+# 下载器运行时产生的数据与登录态，绝不提交
+data/
+profiles/
+profile/
+profile-*/
+captcha_samples/
+debug/
+*.pdf
+*.caj
+node_modules/
+.venv/
+venv/
+__pycache__/
+caj2pdf/
+tasks_pruned.jsonl
+status*.jsonl
+!tasks.example.jsonl
+caj_convert_report.json

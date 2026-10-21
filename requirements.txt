@@ -1,0 +1,5 @@
+# captcha_solver.py 的本地依赖（验证码识别服务，跑在 127.0.0.1:9898）
+ddddocr>=1.4.0
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10.0
