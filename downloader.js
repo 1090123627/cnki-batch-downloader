@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // 知网批量下载器：检索页点进详情 + ddddocr 自动过验证 + 断点续跑 + 限流自愈
 // 用法: node downloader.js tasks.jsonl status.jsonl [--root DIR] [--profile DIR] [--history FILE]
 //       [--min 12] [--max 22] [--limit N] [--pause 15] [--max-pause 4]

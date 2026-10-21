@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // 手动登录一次，把知网登录态保存在 profile 目录里（下载器后续复用同一个 profile）。
 // 用法: node login.js [profile目录，默认 ./profile]
 const { chromium } = require('playwright');
